@@ -6,14 +6,14 @@ const carList = [
     brand: "Ford",
     model: "Mustang",
     year: 1974,
-    color: "red"
+    color: "red",
   },
   {
     id: "policeCar",
     brand: "Volvo",
     model: "242",
     year: 1982,
-    color: "white"
+    color: "white",
   }
 ];
 
@@ -33,4 +33,4 @@ buttons.forEach((button) => {
       showCar(selectedCar);
     }
   });
-});
+}); 
